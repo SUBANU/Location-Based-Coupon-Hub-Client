@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .addCoupan-container{
+    max-width: 500px; 
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgb(30, 33, 39,0.53); 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-top: 10px;
+    color: #333;
+  }
+  
+ .addcoupan-input, textarea, select {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+ .addCoupanButton{
+    background-color: #449aab;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+.addCoupanButton:hover {
+    background-color:#27648d;  
+  }
+  
+  @media (max-width: 1024px) {
+    .container {
+      max-width: 90%;
+    }
+  }
+  

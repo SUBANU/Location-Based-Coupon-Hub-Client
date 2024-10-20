@@ -1,0 +1,83 @@
+
+.wishlist-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.wishlist-title {
+    font-size: 24px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.wishlist-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); /* Adjust minmax width as needed */
+    gap: 20px;
+}
+
+.wishlist-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.w-coupon-image {
+    max-width: 200px;
+    max-height: 100px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.w-coupon-preview {
+    flex-grow: 1;
+}
+
+.w-coupon-title,
+.coupon-description {
+    margin: 0;
+}
+
+.w-read-more {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.delete-button {
+    
+    
+    top: 5px;
+    right: 5px;
+    background-color: transparent;
+    color: #0c0b0b;
+    border: none;
+    padding: 5px 8px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 14px;
+  }
+
+  
+.delete-button:hover{
+    
+    
+    top: 5px;
+    right: 5px;
+    background-color: transparent;
+    color: #0c0b0b;
+    border: none;
+    padding: 5px 8px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 14px;
+  }

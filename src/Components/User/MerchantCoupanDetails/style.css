@@ -1,0 +1,42 @@
+/* style.css */
+.merchant-coupons-container1 {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgb(135, 159, 182);
+  }
+  
+  .coupon-item1 {
+    border: 1px solid #534f4f;
+    margin-bottom: 20px;
+    padding: 10px;
+    display: flex;
+  }
+  
+  .coupon-image1 {
+    width: 100px;
+    height: 120px;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .coupon-details1 {
+    flex-grow: 1;
+  }
+  
+  .coupon-title1 {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .coupon-description1 {
+    margin-top: 5px;
+    color: #1a1616;
+  }
+  
+  .coupon-info1 {
+    margin-top: 5px;
+    color: #151111;
+  }
+  .coupon-details1{
+    color: #1a1616;
+  }

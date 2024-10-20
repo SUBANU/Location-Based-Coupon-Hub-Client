@@ -1,0 +1,286 @@
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  
+  .coupon-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns per row */
+    gap: 20px;
+  }
+  
+  .coupon-card {
+  
+    max-width: 400px;
+  
+  }
+  .coupon-card:nth-child(odd) {
+    background-color: #f0f0f0;
+  }
+  
+  .coupon-card:nth-child(even) {
+    background-color: #e0e0e0;
+  }
+  
+  .coupon-card:nth-child(3n) {
+    background-color: #d0d0d0;
+  }
+  
+  .coupon-card:nth-child(4n) {
+    background-color: #c0c0c0;
+  }
+  
+
+
+  
+  .coupon-image {
+    max-width: 100px;
+    max-height: 100px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .coupon-info {
+    flex-grow: 1;
+  }
+  
+  .read-more-btn {
+    background-color: #3498db; 
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .details-container {
+    background-color: #fff; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  
+  .hide-details-btn {
+    background-color: #e74c3c; 
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  .image-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-modal {
+    position: relative;
+    max-width: 90%;
+    max-height: 90%;
+  }
+ 
+  
+  .modal-image {
+    cursor: pointer;
+  }
+
+  .details-container-blur {
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.8); 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1; 
+  }
+
+  .coupon-code {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+
+
+
+
+.logout-button{
+  width:100px;
+  position: fixed;
+  top: 12%;
+  margin-left: 550px;
+  
+}
+
+.map-search-button{
+  width:150px;
+  position: fixed;
+  top: 12%;
+  margin-left: 380px;
+}
+
+
+.details-container-blur {
+  
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  overflow-y: auto; 
+}
+
+
+/* .modal-image {
+  max-width: 100%;
+  max-height: 100%;
+  margin: 2.0rem;
+  align-self: center;
+} */
+
+.modal-image {
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: 2.0rem;
+  margin-right: 2.0rem;
+  margin-bottom: 2.0rem;
+  margin-left: 2.0rem;
+  align-self: center;
+}
+
+
+
+.details-container p {
+  margin-bottom: 10px;
+}
+
+
+
+
+.close-details-btn {
+  background-color: #5b5eb2; 
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;  
+  margin-top: 10px;
+}
+
+
+.close-image-btn {
+  position: fixed;
+  top: 3%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.close-image-btn:hover {
+  background-color: transparent; 
+}
+
+
+
+.search-bar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  padding: 8px;
+  font-size: 14px;
+  flex-grow: 1;
+}
+
+.search-bar select {
+  padding: 8px;
+  font-size: 14px;
+}
+
+
+
+.coupon-card {
+  position: relative; 
+  border-radius: 8px;
+  overflow: hidden;
+  flex: 0 0 calc(33.333% - 20px); 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+}
+
+.coupon-card:hover {
+  transform: scale(1.05);
+}
+
+
+.coupon-preview {
+  position: relative;
+  display: flex;
+}
+
+
+.wishlist-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 24px;
+  color: #ccc;
+}
+
+
+.wishlist-icon:hover {
+  color: #e74c3c;
+}
+/* 
+.wishlist-button {
+  position: fixed;
+  top: 75px;
+  right: 500px;
+  background-color: #3498db; 
+  color: #fff;
+  padding: 6px 12px; 
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+} */
+
+.wishlist-button {
+  position: absolute;
+  top: 79px;
+  margin-left: 700px;
+  background-color: #3498db; /* Blue color for the button */
+  color: #fff;
+  padding: 4px 8px; /* Adjust padding for a smaller size */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100px;
+}
+
+
+

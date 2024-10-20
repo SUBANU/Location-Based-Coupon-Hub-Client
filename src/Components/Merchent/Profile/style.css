@@ -1,0 +1,32 @@
+.map-container {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1em;
+    font-family: sans-serif;
+    color: #333;
+    background-color: #f3e4d7;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.leaflet-container {
+    height: 60vh;
+    width: 80vw;
+    margin-bottom: 1em;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.saveprofile{
+    width: 120px;
+    text-align: center;
+    margin-left: 170px;
+}
+
